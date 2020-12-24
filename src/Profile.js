@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./ProfileStyles.css";
 import {
   MdModeEdit,
   MdApps,
