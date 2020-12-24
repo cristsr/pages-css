@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #3375f5;
+  color: white;
+  height: 250px;
+}
+
+.header > h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-top: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 20px;
+  background: white;
+  color: black;
+  padding: 30px 0;
+  position: relative;
+  top: 25px;
+  box-shadow: 0px 10px 13px -7px #c2c3c2;
+}
+
+.card > .edit {
+  position: absolute;
+  color: #3375f5;
+  font-size: 1.3em;
+  top: 20px;
+  right: 20px;
+}
+
+.card > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 2px #c2c3c2;
+}
+
+.card > h2 {
+  letter-spacing: 0.03em;
+  padding: 5px 0;
+  font-size: 1.3em;
+}
+
+.card > span {
+  color: #c2c3c2;
+}
+
+.body {
+  padding: 100px 0 0 0;
+}
+
+.body > ul > li {
+  display: flex;
+  padding: 15px;
+}
+
+.body > ul > li > .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  background: #3375f5;
+  color: white;
+  border-radius: 50%;
+}
+
+.body > ul > li > span {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-weight: 600;
+}
